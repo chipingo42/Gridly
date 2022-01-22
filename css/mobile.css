@@ -1,0 +1,231 @@
+.container-content .content-showcase {
+   display: block;
+   /* margin-top: 2px; */
+}
+
+.container-logo .logo {
+   text-align: center;
+   font-size: 50px;
+}
+
+.container-content .content-showcase  ul {
+    display: block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.container-content .content-showcase  ul li a {
+   padding-left: 80px;
+}
+
+/* showcase */
+
+.container-main-content img {
+    width: 100%;
+    font-size: 20px;
+    
+}
+.container-text {
+    width: 100%;
+    margin-top: 270px;
+    /* font-size: 35px; */
+}
+
+/* boxes */
+.container-boxes {
+    padding: 30px;
+}
+.boxes {
+    display: block;
+    margin: 40px;
+}
+
+.box {
+    width: 100%;
+    height: 300px;
+    margin: 40px 0;
+}
+
+.img-box img {
+    width: 100%;
+    height: 200px;
+}
+
+.steps {
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+/* breaks one */
+.container-breaks {
+    display: block;
+    padding: 40px;
+}
+
+.container-img img {
+    width: 100%;
+    height: 800px;
+}
+
+.container-breaks .aside {
+    margin: auto;
+}
+
+.aside h1 {
+    margin: 30px 0;
+}
+
+.aside p {
+    width: 100%;
+    line-height: 1.5;
+    font-size: 30px;
+   
+}
+
+.aside button {
+    font-size: 18px;
+    height: 80px;
+    padding: 20px;
+    font-size: 30px;
+    margin: 15px 0;
+    width: 200px;
+}
+
+/* breaks two */
+.all-content {
+    display: block;
+    padding: 40px;
+}
+
+.container-breaktwo p {
+    width: 100%;
+    line-height: 1.5;
+    font-size: 30px;
+ }
+
+
+.container-breaktwo button{
+    font-size: 30px;
+    height: 80px;
+    margin: 15px 0;
+    width: 200px;
+}
+
+.container-img2 img {
+    width: 100%;
+    height: 800px;
+}
+
+/* About */
+.container-about {
+  width: 700px;
+  height: 700px;
+  margin: auto;
+    
+}
+
+.container-about h1 {
+    font-size: 50px;
+}
+
+.container-about p {
+    width: 600px;
+    font-size: 27px;
+    text-align: start;
+   
+}
+
+#footer {
+    display: block;
+    margin: 40px;
+}
+
+.container-footer h1,
+.container-footer li {
+   font-size: 40px;
+}
+
+@media(max-width: 687px) {
+    .container-content .content-showcase {
+        flex: 1;
+        padding: 40px;
+       
+    }
+
+    .container-content .content-showcase  ul, 
+    .container-content .content-showcase  ul li {
+        padding: 5px;
+        flex: 1;
+    }
+     
+    .content-showcase button {
+        width: 250px;
+    }
+
+    /* boxes */
+    .boxes {
+        flex: 1;
+        margin: auto;
+    }
+
+    .container-boxes {
+        padding: 0 20px;
+    }
+
+    .box {
+        width: 100%;
+    }
+
+    /* breaks one */
+    .container-breaks {
+        flex: 1;
+        padding: 40px;
+    }
+
+    .container-img img {
+        width: 100%;
+        height: 200px;
+    }
+
+    .aside h1 {
+      width: 100%;
+    }
+
+    .aside p {
+        width: 100%;
+        font-size: 25px;
+    }
+
+    /* breaks two */
+    .all-content {
+        flex: 1;
+        padding: 40px;
+    }
+
+    .container-breaktwo p {
+        width: 100%;
+        font-size: 25px;
+    }
+
+    .container-img2 img {
+        width: 100%;
+        height: 200px;
+    }
+
+    /* about */
+    .container-about, 
+    .container-about h1  {
+       width: 80.9%;
+       margin: auto;
+    }
+
+    .container-about p {
+       width: 300px; 
+       padding: 0 40px;
+       font-size: 17px;
+       margin: auto;
+    }
+   
+}
